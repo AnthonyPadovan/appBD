@@ -1,0 +1,7 @@
+
+//BUSCA OS DADOS PARA ALTERAR
+useEffect(() => {       
+    if (id) {
+        buscardados();
+    }
+}, [id]);

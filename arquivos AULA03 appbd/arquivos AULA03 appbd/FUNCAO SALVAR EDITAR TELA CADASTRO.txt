@@ -1,0 +1,8 @@
+    //ACRESCENTAR PARA VERIFICAR EDITAR OU SALVAR
+    function salvarOuEditar(){
+
+    if(id){
+        editar();   // altera registro
+    }else{
+        saveData(); // salva registro
+    }

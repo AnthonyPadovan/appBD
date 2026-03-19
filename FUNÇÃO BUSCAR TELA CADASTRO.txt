@@ -1,0 +1,9 @@
+
+async function buscardados(){      
+    const res = await  api.get('appBD/buscarId.php?id=' + id);
+ 
+    setCidade(res.data.cidade);
+    setEstado(res.data.estado);
+    setTransporte(res.data.transporte);  
+
+}

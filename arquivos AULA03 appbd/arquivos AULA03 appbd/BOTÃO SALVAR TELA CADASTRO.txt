@@ -1,0 +1,12 @@
+            {/* PARA EDITAR TROQUE POR ESTE BOTAO QUE APARECERA DE ACORDO COM A FUNCAO EDITAR OU SALVAR           */}
+            <TouchableOpacity
+               style={styles.Button}
+               onPress={salvarOuEditar}
+>
+               <Ionicons name="footsteps-outline" size={35} color="#FFF" />
+    
+               <Text style={styles.ButtonText}>
+                  {id ? "Alterar" : "Salvar"}
+               </Text>
+
+            </TouchableOpacity>  

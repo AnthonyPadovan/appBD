@@ -1,0 +1,11 @@
+
+//PARA EDITAR IMPORTE USEROUTE PARA RECEBER PARAMETROS
+import { useRoute } from '@react-navigation/native';
+
+
+
+
+   //PARA EDITAR ACRESCENTE O ROUTE E ID PARA RECEBER O PARAMETRO QUE VEM DA TELA HOME COLOQUE DENTRO do const Cadastro()
+    const route = useRoute();
+
+    const id = route.params?.id;

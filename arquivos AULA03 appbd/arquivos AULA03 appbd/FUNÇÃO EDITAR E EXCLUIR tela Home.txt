@@ -1,0 +1,32 @@
+//FUNÇÃO EDITAR E EXCLUIR
+  //importar para funcionar a exclusao
+  // Platform
+function editarItem(item) {
+    navigation.navigate("Cadastro", { id: item.id });
+}
+
+
+function excluirItem(id) {
+
+    if (Platform.OS === 'web') {
+
+        const confirmar = window.confirm("Deseja excluir este registro?");
+
+        if (confirmar) {
+            deletar(id);
+        }
+
+    } else {
+
+        Alert.alert(
+            "Excluir",
+            "Deseja excluir este registro?",
+            [
+                { text: "Cancelar" },
+                { text: "Excluir", onPress: () => deletar(id) }
+            ]
+        );
+
+    }
+
+}

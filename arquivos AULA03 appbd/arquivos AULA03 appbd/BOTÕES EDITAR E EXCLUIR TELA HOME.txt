@@ -1,0 +1,9 @@
+        <View style={styles.actions}>
+            <TouchableOpacity onPress={() => editarItem(item)}>
+                <Ionicons name="create" size={20} color="blue" />
+            </TouchableOpacity>
+
+            <TouchableOpacity onPress={() => excluirItem(item.id)}>
+                <Ionicons name="trash" size={20} color="red" />
+            </TouchableOpacity>
+        </View>

@@ -1,0 +1,31 @@
+Entre na pasta aulapam2_ams
+
+npx create-expo-app@latest appCrudTotal_NOME --template blank
+
+cd appCrudTotal_NOME
+
+npm install react-native-flash-message
+npm install @expo-google-fonts/jost
+npm install expo-app-loading
+
+npm install @react-navigation/drawer
+
+npm install @react-navigation/native
+npm install @react-navigation/stack
+npm install @react-navigation/native-stack
+
+
+npm i axios
+
+npm i react-native-circular-progress
+
+
+
+
+
+
+
+
+
+
+
